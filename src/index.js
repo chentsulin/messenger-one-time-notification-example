@@ -14,6 +14,7 @@ async function HandleQuestion(context) {
       title: '當 Switch 補貨的時候',
       payload: 'NOTIFY_ME_WHEN_IN_STOCK',
     });
+    return;
   }
 
   await context.sendText('很幸運，現在 Switch 還有庫存！');
@@ -28,6 +29,8 @@ async function HandleOptin(context) {
     optin.payload === 'NOTIFY_ME_WHEN_IN_STOCK'
   ) {
     // 收到 token 啦：optin.oneTimeNotifToken
+    await context.sendText('好的，之後 Switch 到貨馬上通知你！');
+
     // 為了 demo 效果在一分鐘後直接通知到貨
     setTimeout(() => {
       client.sendGenericTemplate(
