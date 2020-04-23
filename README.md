@@ -1,10 +1,4 @@
-This project was bootstrapped with
-[Bottender](https://github.com/Yoctol/bottender) init script.
-
-## Sending Feedback
-
-Always feel free to open an issue to
-[Bottender](https://github.com/Yoctol/bottender/issues) repository.
+[「如何發送一次性通知？帶你了解 Messenger One-Time Notification」](https://medium.com/@chentsulin/%E5%A6%82%E4%BD%95%E7%99%BC%E9%80%81%E4%B8%80%E6%AC%A1%E6%80%A7%E9%80%9A%E7%9F%A5-%E5%B8%B6%E4%BD%A0%E4%BA%86%E8%A7%A3-messenger-one-time-notification-a73308e5c100) 的文章範例。
 
 ## Configuration
 
